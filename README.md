@@ -1,3 +1,2 @@
-# DevOps-SysAdmin
+# DevOps and System Administration
 
-DevOps and System Administration
