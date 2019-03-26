@@ -8,5 +8,5 @@
 # VM Credentials
 access
 
-# Vagrant Boxes
+# Vagrant
 vagrant/.vagrant/
