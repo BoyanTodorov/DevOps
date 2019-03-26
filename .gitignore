@@ -9,4 +9,4 @@
 access
 
 # Vagrant Boxes
-vagrant/
+vagrant/.vagrant/
