@@ -1,18 +1,16 @@
-# DevOps Presentation
+# What does integration means ?
 
-## What does integration means ?
-
-### Software development life-cycle (SDLC)
+## Software development life-cycle (SDLC)
 
 ![Software development life-cycle (SDLC)](./sdlc_software_development_lifecycle.jpg)
 
-### Integration testing
+## Integration testing
 
 Integration testing (sometimes called integration and testing, abbreviated I&T) 
 is the phase in software testing in which individual software modules 
 are combined and tested as a group. 
 
-##### Examples for I&T in AltScale projects
+#### Examples for I&T in AltScale projects
 ```
 Backend + FrontEnd + Selenium
 ```
@@ -44,12 +42,12 @@ and delivers as its output the integrated system ready for system testing.
 TODO
 System Testing, after proper CD workflow is accepted
 ```
-## What is Continuous integration (CI)
 
-### Development and Testing Workflow
+# What is Continuous integration (CI)
 
-##### Run tests locally
+## Development and Testing Workflow
 
+* #### Run tests locally
 CI is intended to be used in combination with automated unit tests 
 written through the practices of test-driven development. 
 This is done by running and passing all unit tests 
@@ -58,14 +56,14 @@ This helps avoid one developer's work-in-progress breaking another developer's c
 Where necessary, partially complete features can be disabled before committing, 
 using feature toggles for instance.
 
-##### Compile code in CI
+* #### Compile code in CI
 
 A build server compiles the code periodically or even after every commit 
 and reports the results to the developers. 
 The use of build servers had been introduced outside the XP (extreme programming) 
 community and many organisations have adopted CI without adopting all of XP.
 
-##### Run tests in CI
+* #### Run tests in CI
 
 In addition to automated unit tests, organisations using CI typically use 
 a build server to implement continuous processes of applying 
@@ -85,12 +83,12 @@ by replacing the traditional practice of applying quality control after completi
 This is very similar to the original idea of integrating more frequently 
 to make integration easier, only applied to QA processes.
 
-##### Deploy an artifact from CI
+* #### Deploy an artifact from CI
 Now, CI is often intertwined with continuous delivery in a so called CI/CD pipeline. 
 CI makes sure the software checked in on the mainline is always in a state 
 that can be deployed to users and CD makes the deployment process fully automated.
 
-### CI/CD Best Practices
+# CI/CD Best Practices
 * Maintain a code repository
 * Automate the build
 * Make the build self-testing
