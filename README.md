@@ -57,14 +57,12 @@ Where necessary, partially complete features can be disabled before committing,
 using feature toggles for instance.
 
 * #### Compile code in CI
-
 A build server compiles the code periodically or even after every commit 
 and reports the results to the developers. 
 The use of build servers had been introduced outside the XP (extreme programming) 
 community and many organisations have adopted CI without adopting all of XP.
 
 * #### Run tests in CI
-
 In addition to automated unit tests, organisations using CI typically use 
 a build server to implement continuous processes of applying 
 quality control in general — small pieces of effort, applied frequently. 
@@ -75,7 +73,6 @@ extract and format documentation from the source code
 and facilitate manual QA processes. 
 On the popular Travis CI service for open-source, 
 only 58.64% of CI jobs execute tests.
-
 This continuous application of quality control aims 
 to improve the quality of software, 
 and to reduce the time taken to deliver it, 
